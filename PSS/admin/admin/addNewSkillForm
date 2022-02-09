@@ -1,0 +1,24 @@
+<?php
+require('../model/database.php');
+
+//retrieve created  skill
+$createdSkill = filter_input(INPUT_GET, 'newSkill');
+
+
+
+
+//insert new skill
+$queryInsertSkill = 'INSERT INTO skills
+(skill_name)
+VALUES
+(:skill_name)';
+$statement2 = $db->prepare($queryInsertSkill);
+$statement2->bindValue(':skill_name', $createdSkill);
+$statement2->execute(); 
+$statement2->closeCursor();
+
+
+
+
+include('addNewTeamMember.php');
+?>

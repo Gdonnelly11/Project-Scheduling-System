@@ -1,0 +1,125 @@
+/* 
+    Cal U Project Scheduling System
+	Style Sheet
+    Group: Procuratio
+    Authors: Dominick Affinito, Breanne Rose, Garrison Donnelly
+    Date:   1/25/2022
+
+    Filename: main.css
+*/
+
+html, body, main, .container, .container_fluid{
+    min-height: 100vh;
+    position: relative;
+}
+
+.card {
+    border-radius: .5rem;
+}
+
+body {
+    background: white;
+}
+
+/*Header*/
+.bg-dark {
+    background-color: #ee2d24!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1.55);
+}
+
+/*Landing Page*/
+#landing {
+    background: #ee2d24;
+}
+
+#masthead {
+    padding: 3rem; 
+    padding-top: 0rem;
+    
+}
+
+#landingText {
+    font-size:1.5rem;
+}
+
+#landingHeader {
+    height: 100px;
+    background: #ee2d24;
+}
+
+#landingHeading {
+    border-bottom: white 1px solid;
+    color: white; 
+}
+
+#landingBody {
+    background: white;
+}
+
+/*Customize buttons to match the app's color scheme*/
+.btn-primary {
+    background-color: #da291c;
+    border-color: #da291c; 
+}
+
+.btn-primary:hover{
+    background-color: #aa1e14;
+    border-color: #aa1e14; 
+}
+
+.btn-primary:focus{
+    background-color: #aa1e14;
+    border-color: #aa1e14; 
+    box-shadow: 0 0 0 0;
+}
+
+.btn-primary:active{
+    background-color: #da291c;
+    border-color: #da291c; 
+    
+}
+
+.btn-primary:active:focus{
+    box-shadow: 0 0 0 0;
+}
+
+.btn-outline-primary {
+    color: #da291c;
+    border-color: #da291c;
+}
+
+.btn-outline-primary:hover {
+    color: #ffffff;
+    border-color: #da291c;
+    background-color: #da291c;
+}
+
+.btn-outline-primary:active {
+    color: #ffffff;
+    border-color: #da291c;
+    background-color: #da291c;
+}
+
+.footer {
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+#cardForm {
+    background-color: #f8f9fa;
+    margin-top: 5rem;
+}
+
+.row-bot {
+    border-bottom: 1px solid #9c9c9c;
+}
+
+/*error font color */
+.error{
+    color: #dc143c;
+}
